@@ -1,0 +1,16 @@
+.btn-primary
+{
+	background-color: #33bfb4;
+	border:0px;
+}
+.btn-primary:hover
+{
+	background-color: #2ae6ff;
+}
+	.row {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

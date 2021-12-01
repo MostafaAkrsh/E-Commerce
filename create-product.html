@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Product</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="create-product.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+
+<body>
+    <div class="top-nav-bar" style="background-color: #33bfb4; width: 100%; text-align: center;">
+        <p style="color: #fff; font-size: 30px; padding: 6px;">Header</p>
+    </div>
+
+
+    <div class="container">
+        <h2>Create New Product</h2>
+
+        <div class="row">
+            <div class="col-4">
+                <h3>Upload Photo</h3>
+                <row>
+                    <img src="product-9.jpg" class="img-fluid rounded mx-auto d-block" alt="...">
+                </row>
+                <row>
+
+                    <form class="md-form md-outline">
+                        <div class="file-field">
+                            <div class="btn btn-primary btn-sm float-left">
+                                <span>Choose image</span>
+                                <input type="file">
+                            </div>
+                        </div>
+                    </form>
+                </row>
+            </div>
+            <div class="col-8">
+                <h3>Enter The Product data</h3>
+
+                <div class="row">
+                    <label for="Product_Name">Product Name</label>
+                </div>
+
+                <input class="form-control" id="Product_Name" placeholder="eg. Watch">
+
+                <div class="row">
+                    <label for="Product_Price">Price</label>
+                </div>
+
+                <input class="form-control" id="Product_Price" placeholder="eg. 50$">
+
+                <div class="row">
+                    <label for="number">No. of Products</label>
+                </div>
+
+                <input class="form-control" id="number" placeholder="eg. 5">
+
+                <div class="row">
+                    <label for="Location">Location</label>
+                </div>
+
+                <input class="form-control" id="Location" placeholder="eg. Cairo">
+
+                <div class="row">
+                    <label for="Seller_Name">Seller Name</label>
+                </div>
+                <input class="form-control" id="Seller_Name" placeholder="eg. George">
+
+                <div class="row">
+                    <label for="Seller_Number">Seller Number</label>
+                </div>
+
+                <input class="form-control" id="Seller_Number" placeholder="eg. 011111111110">
+
+                <div class="row">
+                    <label for="Seller_Email">Seller Email</label>
+                </div>
+
+                <input class="form-control" id="Seller_Email" placeholder="eg. George@gmail.com">
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="m-5 pr-10 pl-10">
+        <button type="button" class="btn btn-primary btn-md btn-block">Create Product</button>
+    </div>
+    </div>
+    </div>
+
+
+    <section class="footer" style="bottom: 0; height: 60px; width: 100%;">
+        <p class="copyright" style="padding: 20px;"> Developed by Team No. 22 - 4th CSE-ASU</p>
+    </section>
+
+</body>
+
+</html>
